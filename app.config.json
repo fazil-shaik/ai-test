@@ -1,0 +1,46 @@
+{
+  "name": "InventoryPro ERP System",
+  "version": "1.0.0",
+  "description": "Full-stack ERP inventory management system",
+  "author": "Development Team",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fazil-shaik/ai-test"
+  },
+  "config": {
+    "frontend": {
+      "framework": "React.js",
+      "styling": "TailwindCSS",
+      "bundler": "Vite",
+      "port": 3000
+    },
+    "backend": {
+      "framework": "Node.js + Express.js",
+      "database": "PostgreSQL",
+      "orm": "Drizzle ORM",
+      "port": 3001
+    },
+    "deployment": {
+      "platform": "Vercel",
+      "database": "Neon DB",
+      "environment": "production"
+    }
+  },
+  "features": [
+    "User Authentication & Authorization",
+    "Product Catalog Management",
+    "Supplier Relationship Management",
+    "Transaction Tracking",
+    "Inventory Reports & Analytics",
+    "Real-time Dashboard",
+    "Modern Responsive UI",
+    "RESTful API"
+  ],
+  "dependencies": {
+    "security": "JWT authentication with bcryptjs",
+    "validation": "Express-validator",
+    "cors": "Cross-origin resource sharing",
+    "helmet": "Security headers"
+  }
+}
