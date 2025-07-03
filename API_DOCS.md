@@ -55,8 +55,8 @@ Authorization: Bearer <your-jwt-token>
 ```json
 POST /auth/register
 {
-  "email": "user@example.com",
-  "password": "password123",
+  "email": "admin@inventory.com",
+  "password": "admin123",
   "firstName": "John",
   "lastName": "Doe"
 }
